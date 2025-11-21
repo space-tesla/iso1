@@ -1,0 +1,17 @@
+<!-- Q.1) Write an AngularJS script for addition of two numbers using ng-init, ng-model &
+ng-bind. And also demonstrate ng-show, ng-disabled, ng-click directives on button
+component. -->
+
+<div style="max-width:420px;margin:auto;font-family:Arial;">
+  <h3>Add Two Numbers</h3>
+
+  <input type="number" [(ngModel)]="a" placeholder="Enter A">
+  <input type="number" [(ngModel)]="b" placeholder="Enter B">
+
+  <button (click)="add()" [disabled]="a===0 || b===0">Add</button>
+  <button (click)="toggle()">Show/Hide</button>
+
+  <div *ngIf="show" style="margin-top:12px">
+    Result: {{ a + b }}
+  </div>
+</div>
