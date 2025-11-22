@@ -16,3 +16,10 @@ async function readFiles() {
 }
 
 readFiles();
+
+
+
+
+// HOW TO RUN THIS PROGRAM:
+// Step 1: Open terminal inside this folder
+// Step 2: Run → node app.js
