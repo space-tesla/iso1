@@ -19,7 +19,12 @@ readFiles();
 
 
 
-
 // HOW TO RUN THIS PROGRAM:
-// Step 1: Open terminal inside this folder
-// Step 2: Run → node app.js
+
+// Step 1: First run these commands in terminal (if not already done)
+// npm install express
+// npm init -y
+// npm install
+
+// Step 2: Run the program
+// node app.js
